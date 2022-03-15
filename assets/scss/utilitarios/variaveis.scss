@@ -1,0 +1,26 @@
+//cores
+
+$cinza-escuro: hsl(0, 0%, 17%);
+$cinza-dark: hsl(0, 0%, 59%);
+
+//fontes
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+@mixin Rubik-400{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+
+}
+@mixin Rubik-500{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+
+}
+@mixin Rubik-700{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+
+}

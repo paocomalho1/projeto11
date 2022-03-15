@@ -1,0 +1,246 @@
+@keyframes slide-in{
+    from{
+        left: -100%;
+
+    }
+    to{
+        left: 0%;
+    }
+}
+@keyframes slide-out{
+    from{
+        left: 0%;
+
+    }
+    to{
+        left: -100%
+    }
+}
+@keyframes slide-in-2{
+    from{
+        right: -100%;
+
+    }
+    to{
+        right: 0%;
+    }
+}
+@keyframes slide-out-2{
+    from{
+        right: 0%;
+
+    }
+    to{
+        right:-100%;
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        visibility: visible;
+
+    }
+    to{
+        opacity: 0.75;
+        visibility: visible;
+    }
+}
+@keyframes disappear{
+    from{
+        opacity: 0.75;
+        visibility: visible;
+
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes appearOpacity1{
+    from{
+        opacity: 0;
+        visibility: visible;
+
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+@keyframes disappearOpacity0{
+    from{
+        opacity: 1;
+        visibility: visible;
+
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes carrosel1Img1Next{
+    from{
+        background-image: url(../images/image-product-1.jpg);
+        right: 0;
+    }
+        
+    to{
+        right: 100%;
+        
+        
+        
+    }
+}
+@keyframes carrosel1Img2Next{
+    from{
+        background-image: url(../images/image-product-2.jpg);
+        right: -100%;
+    }
+        
+    to{right: 0%;
+        
+        
+        
+    }
+}
+@keyframes carrosel2Img1Next{
+    from{
+        background-image: url(../images/image-product-2.jpg);
+        right: 0;
+    }
+        
+    to{ 
+        background-image: url(../images/image-product-2.jpg);
+        right: 100%;
+        
+        
+        
+    }
+}
+@keyframes carrosel2Img2Next{
+    from{
+        background-image: url(../images/image-product-3.jpg);
+        right: -100%;
+    }
+        
+    to{ 
+        background-image: url(../images/image-product-3.jpg);
+        right: 0%;
+        
+        
+        
+    }
+}
+@keyframes carrosel3Img1Next{
+    from{
+        background-image: url(../images/image-product-3.jpg);
+        right: 0;
+    }
+        
+    to{
+        background-image: url(../images/image-product-3.jpg);
+        right: 100%;
+        
+        
+        
+    }
+}
+@keyframes carrosel3Img2Next{
+    from{
+        background-image: url(../images/image-product-4.jpg);
+        right: -100%;
+    }
+        
+    to{
+        background-image: url(../images/image-product-4.jpg); 
+        right: 0%;
+        
+        
+        
+    }
+}
+@keyframes carrosel1Img1Previous{
+    from{
+        background-image: url(../images/image-product-2.jpg);
+        right: 0;
+    }
+        
+    to{
+        background-image: url(../images/image-product-2.jpg);
+        right: -100%;
+        
+        
+        
+    }
+}
+@keyframes carrosel1Img2Previous{
+    from{
+        background-image: url(../images/image-product-1.jpg);
+        right: 100%;
+    }
+        
+    to{
+        background-image: url(../images/image-product-1.jpg);
+        right: 0%;
+        
+        
+        
+    }
+}
+@keyframes carrosel2Img1Previous{
+    from{
+        background-image: url(../images/image-product-3.jpg);
+        right: 0;
+    }
+        
+    to{
+        background-image: url(../images/image-product-3.jpg);
+        right: -100%;
+        
+        
+        
+    }
+}
+@keyframes carrosel2Img2Previous{
+    from{
+        background-image: url(../images/image-product-2.jpg);
+        right: 100%;
+    }
+        
+    to{
+        background-image: url(../images/image-product-2.jpg);
+        right: 0%;
+        
+        
+        
+    }
+}
+@keyframes carrosel3Img1Previous{
+    from{
+        background-image: url(../images/image-product-4.jpg);
+        right: 0;
+    }
+        
+    to{
+        background-image: url(../images/image-product-4.jpg);
+        right: -100%;
+        
+        
+        
+    }
+}
+@keyframes carrosel3Img2Previous{
+    from{
+        background-image: url(../images/image-product-3.jpg);
+        right: 100%;
+    }
+        
+    to{
+        background-image: url(../images/image-product-3.jpg);
+        right: 0%;
+        
+        
+        
+    }
+}

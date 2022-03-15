@@ -1,0 +1,125 @@
+@use "../utilitarios" as *;
+
+.cabecalho{
+    height: 33vh;
+    background: url(../images/pattern-bg.png) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__titulo{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        @include Rubik-400;
+        font-size: 2rem;
+        color: white;
+
+    }
+    &__conteiner-input{
+        display: flex;
+        width: 33.3%;
+        @include celular{
+            width: 90%;
+        }
+    }
+    &__input{
+        color: $cinza-dark;
+        width: 90%;
+        font-size: 1rem;
+        padding: 0.75rem;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border: none;
+        @include Rubik-400;
+        &:focus{
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
+
+
+    }
+    &__botao{
+        width: 10%;
+        height: 100%;
+        border: none;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background-color: black;
+        background-image: url(../images/icon-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__itens{
+        width: 80%;
+        background-color: white;
+        padding: 1.5rem 0;
+        display: flex;
+        border-radius: 1rem;
+        position: relative;
+        top:50px;
+        z-index: 3;
+        @include celular{
+            top:20px;
+            flex-direction: column;
+        }
+    
+    
+        
+
+    }
+    &__item{
+        width: 25%;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        border-right: $cinza-dark solid 1px; 
+        &:last-child{
+            border: none;
+        }
+        @include celular{
+            border: none;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding-right: 0rem;
+            padding-left: 0rem;
+            margin-bottom: 1rem;
+            &:last-child{
+                margin-bottom: 0rem;
+            }
+            
+        }
+
+
+    }
+    &__item-titulo{
+        @include Rubik-500;
+        color: $cinza-dark;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        @include celular{
+            font-size: 0.8rem;
+        }
+
+    }
+    &__item-texto{
+        margin-top: 0.5rem;
+        color: $cinza-escuro;
+        @include Rubik-500;
+        font-size: 1.8rem;
+        @include celular{
+            font-size: 1rem;
+        }
+
+    }
+}
+.error{
+    background-color: red !important;
+    background-image: url(../images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

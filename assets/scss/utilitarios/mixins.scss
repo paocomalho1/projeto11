@@ -1,0 +1,28 @@
+@mixin img-celular{
+    @media only screen and (max-width: 375.0px){ @content;}
+}
+@mixin mini-celular{
+    @media only screen and (max-width: 600.0px){ @content;}
+}
+@mixin celular {
+    @media only screen and (max-width: 960.00px){ @content;}
+}
+@mixin tablet {
+    @media only screen and (min-width: 960.00px) and (max-width: 1150.00px){ @content;}
+}
+@mixin flex-jc {
+    display: flex;
+    justify-content: center;
+    
+}
+@mixin flex-ac {
+    display: flex;
+    align-items: center;
+    
+}
+@mixin flex-cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
